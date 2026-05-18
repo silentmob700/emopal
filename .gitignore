@@ -1,0 +1,114 @@
+# ==================== Dependencies ====================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnp
+.pnp.js
+
+# ==================== Build Outputs ====================
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+*.local
+
+# ==================== Environment Variables ====================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ==================== Logs ====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==================== Testing ====================
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# ==================== IDE & Editor ====================
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==================== OS Files ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+*.stackdump
+
+# Linux
+*~
+
+# ==================== Temporary & Cache Files ====================
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+*.sw?
+*.bak
+*.backup
+
+# ==================== Debug & Test Scripts ====================
+test-*.js
+test-*.cjs
+test-*.ts
+test-*.ps1
+*.test.local.*
+generate-*
+inject-*
+update-*
+verify-*
+run-*.js
+check-*.js
+clean-*.ts
+find-*.ts
+fix-*.js
+add-*.ts
+view-*.ts
+data-cleanup-*.sql
+insert-*.sql
+
+# ==================== Database ====================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================== Misc ====================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
